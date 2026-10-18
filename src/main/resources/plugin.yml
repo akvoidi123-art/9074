@@ -1,0 +1,17 @@
+name: CicadaPlugin
+version: '${version}'
+main: ru.cicada.CicadaPlugin
+api-version: '1.21'
+description: Stationary looping-sound cicada that can be picked up and moved.
+commands:
+  cicada:
+    description: Cicada commands
+    usage: /cicada <spawn|give|reload>
+    permission: cicada.admin
+permissions:
+  cicada.admin:
+    description: Use /cicada
+    default: op
+  cicada.pickup:
+    description: Pick up and place cicadas
+    default: true

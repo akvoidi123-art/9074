@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Cicada plugin pack",
+    "pack_format": 75,
+    "min_format": 34,
+    "max_format": 99,
+    "supported_formats": [34, 99]
+  }
+}
